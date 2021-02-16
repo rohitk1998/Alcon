@@ -1,0 +1,330 @@
+:root {
+ --input-padding-x: 1.5rem;
+ --input-padding-y: .55rem;
+}
+
+
+
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+}
+
+/* CSS only for examples not required for centering */
+.container {
+	height: 100%;
+	
+}
+
+
+body{
+	  overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+.body-bg {
+	background: url("../images/bg-pat.jpg") repeat;
+	
+	
+}
+.body-bg-login {
+	background: url("../images/bg-pat.jpg") repeat;
+	min-height: 100vh;
+	max-height: auto;
+	
+	width: 100%;
+	
+}
+.body-bg-color {
+	background: #f2f2f2;
+	min-height: 100vh;
+	max-height: auto;
+	
+	width: 100%;
+	/* background: cornflowerblue; */
+}
+.blue-txt {
+	color: #06b0f4;
+}
+.blue-txt-dark {
+	color: #003595;
+}
+
+
+.bluebg{
+	background: #06b0f4;
+}
+.bluebgdark{
+	background: #003595;
+}
+.forgot {
+	color: #003595;
+	text-decoration: underline;
+}
+.btn-dark-blue {
+	color: #fff;
+	background-color: #003595;
+	border-color: #003595;
+}
+.btn-dark-blue:hover {
+	color: #fff;
+	background-color: #0547c0;
+	border-color: #0547c0;
+}
+.btn-light {
+	color: #fff;
+	background-color: #c7c7c7;
+	border-color: #c7c7c7;
+}
+.btn-light:hover {
+	color: #fff;
+}
+
+
+
+.btn-white {
+	color: #09b1f4;
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 20px;
+	padding: 0px 10px 0px 10px;
+}
+.btn-white:hover {
+color: #09b1f4;
+
+}
+
+
+
+
+
+.btn-apply {
+	color: #fff;
+	background-color: #ddc9a5;
+	border-color: #ddc9a5;
+	border-radius: 20px;
+	padding: 5px 20px 5px 20px;
+	font-size: 15px;
+}
+.btn-apply:hover {
+color: #fff;
+	background-color: #06b0f4;
+	border-color: #06b0f4;
+
+}
+.card-signin {
+	border: 0;
+	border-radius: 1.5rem;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.card-signin .card-title {
+	margin-bottom: 2rem;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.card-signin .card-body {
+	padding: 1rem;
+}
+.form-signin {
+	width: 100%;
+}
+.form-signin .btn {
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: 0.7rem;
+	transition: all 0.2s;
+}
+.form-label-group {
+	position: relative;
+	margin-bottom: 1rem;
+}
+.form-label-group input {
+	height: auto;
+	border-radius: 2rem;
+}
+.form-label-group>input, .form-label-group>label {
+	padding: var(--input-padding-y) var(--input-padding-x);
+}
+.form-label-group>label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	/* Override default `<label>` margin */
+	line-height: 1.5;
+	color: #495057;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	transition: all .1s ease-in-out;
+}
+ 
+.btn-google {
+	color: white;
+	background-color: #ea4335;
+}
+.btn-facebook {
+	color: white;
+	background-color: #3b5998;
+}
+/* Styles for wrapping the search box */
+
+.main {
+	width: 100%;
+}
+/* Bootstrap 4 text input with search icon */
+
+
+.bg-light-pat {
+	background: url("../images/bg-light-pat.jpg") repeat;
+	min-height: 100vh;
+	max-height: auto;
+	
+}
+
+.modal-content {
+	background-color: transparent!important;
+	border: 0px solid rgba(0,0,0,.2);
+	}
+	.modal {
+		/* / Transparent dimmed overlay / */
+	background-color: rgba(0,0,0,0.4); 
+	}
+
+	
+.has-search .form-control {
+	padding: 1.5rem 1.5rem 1.5rem 3rem;
+	line-height: 3.375rem!important;
+	background: #f5f5f5;
+	border-radius: 100px;
+}
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 3.375rem;
+	height: 3.375rem;
+	line-height: 3.175rem;
+	text-align: center;
+	pointer-events: none;
+	color: #003595;
+}
+ .has-search .form-control::placeholder {
+ color: #003595;
+	 font-weight: bold;
+	
+}
+.tablefixed tbody {
+	display: block;
+	height: 500px;
+	overflow: auto;
+	
+}
+.tablefixed thead, tbody tr  {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	color: #003595;
+	font-weight: 600;
+	background: #fff;
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+	
+
+}
+
+
+.label {
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000
+}
+
+.label.label-outlined {
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+	border-radius:20px;
+}
+
+.label.label-outlined.label-default {
+  border-color: #B0BEC5;
+  color: #000;
+}
+
+
+
+.bradius{
+	
+		border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+
+.bradius-top{
+	
+		border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.bradius-bottom{
+	
+		border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+
+.fa-angle-left{
+	color: #003595;
+}
+
+
+.form-group .form-control {
+    padding-left: 2.375rem;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.form-group .form-control-icon2 {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 1.8rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.form-group .form-control::placeholder {
+ color: #003595;
+	 font-weight: bolder;
+	font-size: 15px;
+}
